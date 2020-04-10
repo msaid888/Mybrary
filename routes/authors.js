@@ -3,7 +3,7 @@ const router = express.Router()
 const Author = require('../models/author')
 
 // ALL Authors Route
-router.get('/', async (req, res) => {
+router.get('/', (req, res) => {
 res.render('authors/index')
 })
 
